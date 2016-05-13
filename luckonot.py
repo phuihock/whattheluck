@@ -15,7 +15,7 @@ with open('luck.txt', 'r') as f:
             y = x / 80.0
             z = int(y)
             if y > z:
-                if ((y - z) * 80) == a:
+                if round((y - z) * 80) == a:
                     nums.append(x)
             elif y <= 1:
                 if (y * 80) == a:
