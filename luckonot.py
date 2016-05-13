@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 with open('luck.txt', 'r') as f:
     while True:
